@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd nuspec.xsd">
+    <metadata>
+        <owners>Bertram Fey</owners>
+        <id>lasergrbl</id>
+        <version>%%VERSION%%</version>
+        <title>LaserGRBL</title>
+        <authors>arkypita, the LaserGRBL authors</authors>
+        <summary>
+            LaserGRBL is one of the best Windows software for image Laser Engraving.
+        </summary>
+        <description>
+            LaserGRBL is able to load any image, pictures and logo and send to your laser engrave with few click.
+
+            Unlike other GUI, LaserGRBL it is specifically developed for use with hobbist laser cutter and engraver and
+            could be a good free and easy alternative to picengrave, benbox, T2laser, lightburn for who don’t need more
+            then a simple and effective tool.
+        </description>
+        <projectUrl>https://lasergrbl.com/</projectUrl>
+        <releaseNotes>https://github.com/arkypita/LaserGRBL/releases/tag/v%%VERSION%%</releaseNotes>
+        <licenseUrl>https://github.com/arkypita/LaserGRBL/blob/master/LICENSE.md</licenseUrl>
+        <packageSourceUrl>https://github.com/n0y/chocolatey-lasergrbl</packageSourceUrl>
+        <tags>laser grbl etching engraving annealing</tags>
+    </metadata>
+    <files>
+        <file src="tools\**" target="tools"/>
+    </files>
+</package>
